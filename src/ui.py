@@ -8,7 +8,7 @@
 #
 # Änderungen (11/2025):
 #   - ECTS-Eingabe nur in 5er-Schritten
-#   - Ampel nutzt neue 10-ECTS-Regel
+#   - Ampel nutzt neue 5-ECTS-Regel
 #   - ASCII-sichere Darstellung (keine Emojis)
 
 from __future__ import annotations
@@ -183,3 +183,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
