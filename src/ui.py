@@ -5,10 +5,7 @@
 #   - Eingaben (ECTS, Startdatum, Note)
 #   - Kennzahlen & Ampelanzeige
 #   - Donut-Diagramme (SOLL / IST)
-#
-# Änderungen (11/2025):
 #   - ECTS-Eingabe nur in 5er-Schritten
-#   - ASCII-sichere Darstellung (keine Emojis)
 
 from __future__ import annotations
 import os
@@ -182,5 +179,6 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
 
 
